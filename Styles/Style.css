@@ -1,0 +1,133 @@
+/* General body styles */
+body {
+	font-family: Arial, Veranda, sans-serif;
+	background-color: #ccd9d4/*#009E8E*/;
+	padding: 20px;
+	}
+
+/* Main header style */	
+h1 {
+	background-color: #00675C;
+	font-size: 48pt;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: white;	
+	padding: 5px;
+	margin: 0;
+	}				
+div#header{
+	border-width: 3px 0px 3px 0px;
+	border-color: black;
+	border-style: solid;
+}	
+
+/* Paragraph style */
+p {
+	line-height: 1.4em;
+	font-size: 16pt;
+	}		
+	
+/* Links to site pages */
+nav.navigate {
+	background-color: #1E776D;
+	text-align: center;
+	padding: 5px;
+	margin: 0;	
+	}	
+.navigate li {
+	font-size: 16pt;
+  display: inline;
+  margin-right: 20px;
+  }	
+a#linklist:link {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	}		
+a#linklist:visited {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	}	
+a#linklist:hover {
+	color: black;
+	}			
+	
+/* Social media */
+ul#soclist {
+	text-align: center;	
+}
+ul#soclist li {
+	display: inline;
+}
+
+/* Home page opening line */	
+.italic {
+	font-style: italic;
+}
+p#intro {
+	font-size: 18pt;
+	font-style: italic;
+	text-align: center;
+}
+	
+/* Home first block */
+div.entry1 {
+	margin-top: 10cm;
+}
+h2 {
+	font-size: 24pt;
+}
+.col_1 {
+	float: left;
+	width: 48%;
+	margin: 10px;
+}
+p#first_line {
+	background-color: #1E776D;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 18pt;
+	color: white;
+	text-align: center;
+	margin-bottom: 2cm;
+	margin-top: 0cm;
+}
+img.col_2 {
+	float: left;
+	width: 48%;
+	margin: 10px;
+	border-width: 2px 0px 2px 0px;
+	border-color: black;
+	border-style: solid;
+}
+
+/* Timeline */
+.tl_col_1, .tl_col_2, .tl_col_3 {
+	text-align: center;
+	float: left;
+	width: 32%;
+}
+
+/* Footer */
+.footer {
+	width: 100%;
+	margin: 10px;
+	height: 40px;
+	float: left;
+}
+/* Links to LET and access */
+ul#let_logos {
+	text-align: center;	
+}
+ul#let_logos li {
+	display: inline;
+	margin-right: 20px;
+}	
+
+
+	
+
+
+
